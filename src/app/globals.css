@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+* {
+  border-color: rgba(91, 138, 154, 0.2);
+}
+
+body {
+  color: #E8ECF0;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+}
+
+.glass-button {
+  background: rgba(91, 138, 154, 0.2);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(91, 138, 154, 0.3);
+  transition: all 0.3s;
+  border-radius: 0.75rem;
+  padding: 0.75rem 1.5rem;
+  font-weight: 500;
+}
+
+.glass-button:hover {
+  background: rgba(91, 138, 154, 0.3);
+  border-color: rgba(91, 138, 154, 0.5);
+}
+
+.glow-text {
+  text-shadow: 0 0 20px rgba(91, 138, 154, 0.5);
+}
+
+.glow-coral {
+  box-shadow: 0 0 30px rgba(255, 155, 133, 0.3);
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}

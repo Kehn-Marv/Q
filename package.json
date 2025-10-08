@@ -1,0 +1,31 @@
+{
+  "name": "qide",
+  "version": "1.0.0",
+  "description": "Quantum-Inspired Decision Engine",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.6",
+    "@react-three/fiber": "^9.3.0",
+    "@supabase/supabase-js": "^2.74.0",
+    "@tailwindcss/postcss": "^4.1.14",
+    "@types/node": "^24.7.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.1",
+    "d3": "^7.9.0",
+    "framer-motion": "^12.23.22",
+    "next": "^15.5.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "three": "^0.180.0",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.37.0",
+    "eslint-config-next": "^15.5.4"
+  }
+}
